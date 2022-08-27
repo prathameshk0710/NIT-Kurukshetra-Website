@@ -1,0 +1,649 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(255, 240, 223);
+}
+
+.navlist1 {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 74px;
+  height: 42px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.instituteName {
+  font-size: 25px;
+  padding-left: 30px;
+}
+
+p1 {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 45px;
+}
+.navlist2 {
+  list-style: none;
+  display: flex;
+  background-color: cornflowerblue;
+  flex-direction: row;
+}
+
+.navlist2 ul {
+  list-style: none;
+  display: flex;
+}
+
+.navlist2 a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 17px;
+}
+
+.navlist2 a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.greet {
+  background-color: cornflowerblue;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.82) url("../images/pic1.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.sec1 {
+  display: flex;
+}
+
+.announce {
+  padding-left: 40px;
+  font-size: 35px;
+}
+.second {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.second ul {
+  text-decoration: none;
+  color: white;
+}
+.second li:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.sec2 {
+  background-color: bisque;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+.sec2 .i1 {
+  border: solid;
+  border-color: black;
+  border-radius: 27px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sec2 .library {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2 .library img {
+  height: 258px;
+  margin: 15px;
+  border: solid;
+  border-color: black;
+  border-radius: 20px;
+}
+
+.sec2 .computing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2 .sports {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2 .senate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2 .computing img {
+  height: 258px;
+  margin: 15px;
+  border: solid;
+  border-color: black;
+  border-radius: 20px;
+}
+
+.sec2 .senate img {
+  height: 195px;
+  margin: 9px;
+  border: solid;
+  border-color: black;
+  border-radius: 20px;
+}
+
+.sec2 .sports img {
+  height: 263px;
+  margin: 9px;
+  border: solid;
+  border-color: black;
+  border-radius: 20px;
+}
+
+.sec2 important {
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+}
+
+.sec3 {
+  background-color: bisque;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.sec4 {
+  background-color: bisque;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+.sec5 {
+  background-color: bisque;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.sec6 {
+  background-color: bisque;
+  padding-top: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+.sec6 div {
+  display: flex;
+  align-items: center;
+}
+.sec6 div img {
+  width: 200px;
+  border: solid;
+  border-color: black;
+  border-radius: 20px;
+  margin-left: 18px;
+  margin-right: 20px;
+}
+.sec6 div div {
+  flex-direction: column;
+  font-size: 15px;
+}
+.history {
+  background-color: rgb(233, 205, 170);
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.contact {
+  background-color: rgb(255, 236, 184);
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.history .H_info {
+  display: flex;
+}
+.history .H_info img {
+  height: 213px;
+  margin-bottom: 35px;
+  margin-left: 27px;
+  width: 411px;
+  /* padding-right: 22px; */
+  border: solid;
+  border-color: black;
+  border-radius: 26px;
+}
+.history .img_gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  padding-bottom: 26px;
+}
+.history .img_gallery #i1 {
+  width: 244px;
+  width: 244px;
+  border: solid;
+  border-color: black;
+  border-radius: 20px;
+}
+.history .img_gallery #i2 {
+  width: 253px;
+  margin-right: 50px;
+  margin-left: 50px;
+  width: 244px;
+  border: solid;
+  border-color: black;
+  border-radius: 20px;
+}
+.history .img_gallery #i3 {
+  width: 253px;
+  width: 244px;
+  border: solid;
+  border-color: black;
+  border-radius: 20px;
+}
+.contact .myform {
+  margin: auto;
+}
+
+.contact .myform .data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16px;
+  width: 216px;
+  margin: auto;
+  border-color: black;
+  border-radius: 6px;
+}
+.contact .myform .submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin: auto;
+}
+.query {
+  width: 216px;
+  height: 77px;
+  border: solid;
+  border-color: black;
+  border-radius: 7px;
+  margin: auto;
+  display: block;
+}
+.contact p {
+  text-align: center;
+}
+.covid p,
+h1 {
+  text-align: center;
+}
+.covid h1 {
+  font-size: 35px;
+}
+.learn:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: rgb(255, 222, 130);
+  font-size: 11px;
+}
+.fdiv1 {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+}
+footer ul :hover {
+  text-decoration: underline;
+}
+footer ul {
+  background-color: rgb(255, 222, 130);
+  display: inline-table;
+  padding-left: 184px;
+}
+footer p {
+  text-align: center;
+}
+
+.burger {
+  display: none;
+  background-color: cornflowerblue;
+  position: absolute;
+  cursor: pointer;
+  right: 32px;
+  top: 120px;
+}
+
+.line {
+  height: 3px;
+  width: 20px;
+  background-color: white;
+  margin: 3px 3px;
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 1028px) {
+  .logo img {
+    width: 135%;
+    height: 70px;
+    margin-left: 13px;
+  }
+  .h_nav {
+    background-color: cornflowerblue;
+    height: 48px;
+  }
+  .v_class {
+    opacity: 0;
+  }
+  .navlist2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .navlist2 ul li {
+    margin: 2px;
+  }
+  .navlist1 {
+    display: flex;
+    padding-left: 0px;
+  }
+  .instituteName {
+    font-size: 18px;
+    padding-left: 23px;
+  }
+
+  p1 {
+    padding-left: 0px;
+    font-size: 14px;
+  }
+  .announce {
+    padding-left: 30px;
+    font-size: 23px;
+  }
+  .second ul {
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+  }
+  .navlist2 {
+    list-style: none;
+    display: flex;
+    background-color: cornflowerblue;
+    font-size: 10px;
+    padding: 4px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    transition: all 0.2s cubic-bezier(0, 0, 0.51, 0.5);
+  }
+
+  .background {
+    background: rgba(0, 0, 0, 0.82) url('../images/pic1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 426px;
+  }
+
+  .second h1 {
+    padding-left: 21px;
+    font-size: 24px;
+  }
+
+  .sec1 marquee {
+    height: 272px;
+    font-size: 9px;
+  }
+
+  .history .H_info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .history .H_info img {
+    height: 160px;
+    width: 212px;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    border: solid;
+    border-color: black;
+    border-radius: 26px;
+  }
+  .history h1 {
+    font-size: 27px;
+  }
+
+  footer div {
+    display: flex;
+    flex-direction: column;
+  }
+  footer p {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 8px;
+  }
+  .fdiv1 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+  }
+  footer ul {
+    background-color: rgb(255, 222, 130);
+    display: inline-table;
+    padding: 18px;
+    margin: 4px;
+    font-size: 10px;
+  }
+  .contact .myform .data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16px;
+    width: 171px;
+    border: solid;
+    border-color: black;
+    border-radius: 6px;
+  }
+  .query {
+    width: 171px;
+    height: 59px;
+    border: solid;
+    margin-bottom: 10px;
+    border-color: black;
+    border-radius: 7px;
+  }
+  .contact .myform {
+    width: 178px;
+  }
+  .gdiv1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 13px;
+  }
+
+  .history .img_gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .history .img_gallery #i1 {
+    width: 118px;
+    height: 84px;
+    margin-left: 11px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+  }
+
+  .history .img_gallery #i2 {
+    width: 118px;
+    height: 84px;
+    margin-right: 11px;
+    margin-left: 11px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+  }
+
+  .history .img_gallery #i3 {
+    width: 138px;
+    height: 105px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+  }
+  .burger {
+    display: block;
+  }
+
+  .sec2 h1 {
+    font-size: 27px;
+  }
+  .sec2 p {
+    text-align: justify;
+  }
+
+  .library {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sec2 .computing {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+  }
+  .sec2 .senate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sec2 .sports {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sec2 .sports img {
+    /* height: 263px; */
+    margin: 9px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    height: 200px;
+  }
+
+  .sec2 .senate img {
+    margin: 9px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    height: 152px;
+  }
+
+  .sec2 .computing img {
+    height: 258px;
+    margin: 15px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    height: 212px;
+  }
+
+  .sec2 .library img {
+    height: 217px;
+    margin: 15px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+  }
+  .sec2 .i1 {
+    border: solid;
+    border-color: black;
+    border-radius: 27px;
+    width: 315px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sec3 h1 {
+    font-size: 27px;
+  }
+
+  .sec3 {
+    padding: 1px 18px 11px 18px;
+  }
+
+  .sec6 div img {
+    width: 125px;
+  }
+
+  .sec6 div div {
+    flex-direction: column;
+    font-size: 10px;
+  }
+
+  .sec6 h1 {
+    font-size: 38px;
+  }
+
+  .sec4 h1 {
+    font-size: 30px;
+  }
+
+  .sec4 {
+    padding: 9px 18px;
+  }
+
+  .sec5 h1 {
+    font-size: 30px;
+  }
+  .sec5 {
+    padding: 10px 18px;
+  }
+}
